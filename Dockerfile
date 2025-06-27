@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y apache2 openssl && \
     apt-get install -y php8.2 php8.2-bcmath php8.2-curl php8.2-gd php8.2-gmp \
     php8.2-iconv php8.2-ldap php8.2-mbstring php8.2-mcrypt php8.2-mysqli \
-    php8.2-xml git
+    php8.2-xml git vim
 
 # Ativar módulo SSL do Apache2
 RUN a2enmod ssl
